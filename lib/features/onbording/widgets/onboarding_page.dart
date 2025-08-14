@@ -22,7 +22,7 @@ class OnboardingPage extends StatelessWidget {
           width: size,
         ),
         SizedBox(
-          height: 30,
+          height: 40,
         ),
         Text(
           title,
