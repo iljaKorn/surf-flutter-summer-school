@@ -6,7 +6,7 @@ import 'package:surf_places/api/service/api_urls.dart';
 part 'api_client.g.dart';
 
 /// REST-клиент.
-@RestApi()
+@RestApi(baseUrl: 'http://10.0.2.2:8080/')
 abstract class ApiClient {
   factory ApiClient(Dio dio, {String baseUrl}) = _ApiClient;
 
