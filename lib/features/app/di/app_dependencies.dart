@@ -12,11 +12,11 @@ abstract class AppDependencies {
 
     final dio = Dio();
 
-    dio.options
-      ..baseUrl = 'http://109.73.206.134:8888/api/'
-      ..connectTimeout = timeout
-      ..receiveTimeout = timeout
-      ..sendTimeout = timeout;
+    // dio.options
+    //   ..baseUrl = 'http://localhost:8080/'
+    //   ..connectTimeout = timeout
+    //   ..receiveTimeout = timeout
+    //   ..sendTimeout = timeout;
 
     final apiClient = ApiClient(dio);
     return [
