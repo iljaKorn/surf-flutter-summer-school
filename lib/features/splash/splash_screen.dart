@@ -1,8 +1,7 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:surf_places/features/tabs_screen/tabs_screen.dart';
+import 'package:surf_places/features/onbording/screens/onboarding_screen_builder.dart';
 import 'package:surf_places/uikit/themes/colors/app_color_theme.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -21,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
     Timer(
       Duration(seconds: 2),
-      () => Navigator.of(context).push(MaterialPageRoute(builder: (context) => TabsScreen())),
+      () => Navigator.of(context).push(MaterialPageRoute(builder: (context) => OnboardingScreenBuilder())),
     );
   }
 

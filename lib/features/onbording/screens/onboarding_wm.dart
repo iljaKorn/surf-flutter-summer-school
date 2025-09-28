@@ -10,6 +10,7 @@ class OnboardingWm {
   bool get isCompleted => _model.isCompleted;
 
   void onPressed(BuildContext context) {
+    _model.isCompleted = true;
     Navigator.of(context).push(MaterialPageRoute(builder: (context) => TabsScreen()));
   }
 }

@@ -1,6 +1,6 @@
 name: surf_places
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
@@ -19,6 +19,7 @@ dependencies:
     sdk: flutter
   flutter_svg: 2.2.0
   freezed_annotation: ^2.4.1
+  get:
   json_annotation: 4.9.0
   path: 1.9.1
   path_provider: 2.1.5
